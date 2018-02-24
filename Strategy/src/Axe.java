@@ -4,6 +4,6 @@ public class Axe implements WeaponInterface
 	public void attack()
 	{
 		// TODO Auto-generated method stub
-		System.out.println("도끼 공격");
+		System.out.println("Axe Attack");
 	}
 }

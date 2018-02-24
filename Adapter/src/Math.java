@@ -1,4 +1,4 @@
-
+// 수정할수 없는 공용 라이브러리
 public class Math
 {
 	public static double twoTime(double num)

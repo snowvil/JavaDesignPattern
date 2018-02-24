@@ -4,6 +4,6 @@ public class Knife implements WeaponInterface
 	public void attack()
 	{
 		// TODO Auto-generated method stub
-		System.out.println("칼 공격");
+		System.out.println("Knife Attack");
 	}
 }

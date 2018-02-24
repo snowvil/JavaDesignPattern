@@ -13,7 +13,7 @@ public class GameCharacter
 	{
 		if(weapon == null)
 		{
-			System.out.println("맨손 공격");
+			System.out.println("Punch Attack");
 			return ;
 		}
 		// 델리게이트

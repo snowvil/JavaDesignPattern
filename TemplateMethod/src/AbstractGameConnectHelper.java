@@ -1,5 +1,6 @@
 public abstract class AbstractGameConnectHelper
 {
+	// 추상 메소드들은 자식 클래스에서 각각의 내용을 구현한다.
 	protected abstract String doSecurity(String string);
 
 	protected abstract boolean authentication(String id, String password);
@@ -8,7 +9,6 @@ public abstract class AbstractGameConnectHelper
 
 	protected abstract String connection(String info);
 
-	
 	// 템플릿 메소드
 	public String requestConnection(String encodedInfo)
 	{
