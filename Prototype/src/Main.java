@@ -21,6 +21,26 @@ public class Main
 		
 		System.out.println(circle1.getX() + ", " + circle1.getY() + ", " + circle1.getR());		
 		System.out.println(circle2.getX() + ", " + circle2.getY() + ", " + circle2.getR());
+		
+		//===================================================================================
+		
+		Cat navi = new Cat();
+		navi.setName("Navi");
+		navi.setAge(new Age(2015, 3));
+		
+		// Deep Copy
+		Cat yo = navi.clone();
+		yo.setName("yo");
+		
+		yo.getAge().setYear(2016);
+		yo.getAge().setValue(2);
+		
+		System.out.println(navi.getName());
+		System.out.println(yo.getName());
+
+		System.out.println(navi.getAge().getYear());
+		System.out.println(yo.getAge().getYear());
+		
 	}
 
 }
